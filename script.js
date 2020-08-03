@@ -48,7 +48,6 @@ async function getQuote() {
     throw new Error('oops')
   } catch (error) {
     console.log(error)
-    alert("Have a problem: " + error);
   }
 }
 
